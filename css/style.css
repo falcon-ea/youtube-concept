@@ -1,0 +1,122 @@
+@import "css/normalise.css";
+
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: white;
+	font-family: ;
+}
+
+.header {
+	padding-top: 20px;
+	padding-left: 32px;
+	padding-right: 70px;
+	padding-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.menu-button {
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #fff;
+	width: 20px;
+	height: 17px;
+	border: none;
+	margin-right: 28px;
+	cursor: pointer;
+}
+
+.menu-line {
+	display: block;
+	height: 3px;
+	width: 20px;
+	background: #1F2022;
+	border-radius: 22px;
+}
+
+.logo {
+	margin-right: 59px;
+	cursor: pointer;
+}
+
+.input-group {
+	background: #EBEBEB;
+	border-radius: 22px;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 17px;
+	align-items: center;
+	max-width: 830px;
+	width: 50%;
+	margin-right: 50px;
+}
+
+.input-search {
+	background-color: transparent;
+	border: none;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 23px;
+	padding-right: 23px;
+	width: 90%;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	
+}
+
+.button-search {
+	width: 19px;
+	height: 19px;
+	border: none;
+	padding: 0px;
+	border-color: transparent;
+	cursor: pointer;
+}
+
+.icon-search {
+	fill: "#000";
+	height: 19px;
+	width: 19px;
+}
+
+.icons {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+}
+
+.icon-video {
+	height: 20px;
+	width: 27px;
+	opacity: 0.24;
+	margin-right: 50px;
+}
+
+.icon-apps {
+	height: 21px;
+	width: 21px;
+	opacity: 0.24;
+	margin-right: 50px;
+}
+
+.icon-notification {
+	height: 26px;
+	width: 22px;
+	opacity: 0.24;
+	margin-right: 50px;
+}
+
+.icons-link:hover {
+	opacity: 0.7;
+}
+
+.user {
+	padding-left: 45px;
+}

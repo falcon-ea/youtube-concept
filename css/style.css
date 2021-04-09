@@ -120,3 +120,8 @@ body {
 .user {
 	padding-left: 45px;
 }
+
+.favicon {
+	height: 16px;
+	width: auto;
+}

@@ -164,6 +164,10 @@ body {
 	padding-left: 0px;
 	list-style-type: none;
 }
+.nav-menu-setting{
+	margin-top: 104px;
+	margin-bottom: 0px;
+}
 .nav-item {
 	margin-bottom: 28px;
 	display: flex;
@@ -258,7 +262,4 @@ body {
 	width: 19px;
 	height: 20px;
 	opacity: 0.24;
-}
-.nav-icon-setting{
-	margin-top: 104px;
 }

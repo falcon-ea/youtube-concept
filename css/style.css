@@ -5,14 +5,26 @@
 }
 body {
 	background-color: white;
-	font-family: ;
+	font-family: Mulish;
+	align-items: center;
+}
+/*Разобраться с границами всего контента!*/
+.content{
+	max-width: 1280px;
+}
+
+.favicon {
+	height: 16px;
+	width: auto;
 }
 
 .header {
+	max-width: 1820px;
 	padding-top: 20px;
-	padding-left: 32px;
-	padding-right: 70px;
+	margin-left: 30px;
+	margin-right: 70px;
 	padding-bottom: 20px;
+	margin-bottom: 30px;
 	display: flex;
 	align-items: center;
 }
@@ -62,13 +74,12 @@ body {
 	padding-bottom: 12px;
 	padding-left: 23px;
 	padding-right: 23px;
-	width: 90%;
+	width: 100%;
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 20px;
-	
 }
 
 .button-search {
@@ -90,38 +101,164 @@ body {
 	display: flex;
 	align-items: center;
 	margin-left: auto;
+	max-width: 175px;
 }
 
 .icon-video {
 	height: 20px;
 	width: 27px;
 	opacity: 0.24;
-	margin-right: 50px;
 }
 
 .icon-apps {
 	height: 21px;
 	width: 21px;
 	opacity: 0.24;
-	margin-right: 50px;
 }
 
 .icon-notification {
 	height: 26px;
 	width: 22px;
 	opacity: 0.24;
-	margin-right: 50px;
 }
 
-.icons-link:hover {
+.link{
+	cursor: pointer;
+	margin-right: 50px;
+}
+.link:hover{
 	opacity: 0.7;
 }
 
 .user {
-	padding-left: 45px;
+	margin-right: 0px;
+	margin-left: 50px;
+	display: flex;
+	align-items: center;
+}
+.user-avatar{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
 }
 
-.favicon {
+.container {
+	margin-left: 30px;
+}
+.sidebar {
+	padding-left: 0px;
+}
+.nav {
+}
+.nav-menu {
+	margin-top: 0;
+	margin-bottom: 60px;
+	padding-left: 0px;
+	list-style-type: none;
+}
+.nav-menu2{
+	padding-left: 0px;
+	list-style-type: none;
+}
+.nav-menu3{
+	padding-left: 0px;
+	list-style-type: none;
+}
+.nav-item {
+	margin-bottom: 28px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+.nav-item a{
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+.icon {
+
+}
+.nav-text{
+	margin-left: 13px;
+	color: #898989;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	cursor: pointer;
+}
+.icon-home {
+	width: 20px;
+	height: 19px;
+	opacity: 0.24;
+}
+.icon-trending {
+	width: 16px;
+	height: 21px;
+	opacity: 0.24;
+}
+.icon-subscriptions {
+	width: 18px;
+	height: 18px;
+	opacity: 0.24;
+}
+.icon-library {
+	width: 20px;
 	height: 16px;
-	width: auto;
+	opacity: 0.24;
+}
+.icon-history {
+	width: 20px;
+	height: 18px;
+	opacity: 0.24;
+}
+.icon-watchlater {
+	width: 17px;
+	height: 19px;
+	opacity: 0.24;
+}
+.icon-favourites {
+	width: 19px;
+	height: 18px;
+	opacity: 0.24;
+}
+.icon-likedvideos {
+	width: 18px;
+	height: 17px;
+	opacity: 0.24;
+}
+.icon-music{
+	width: 18px;
+	height: 20px;
+	opacity: 0.24;
+}
+.icon-games {
+	width: 22px;
+	height: 16px;
+	opacity: 0.24;
+}
+.icon-showmore {
+	width: 14px;
+	height: 8px;
+	opacity: 0.24;
+}
+.nav-title{
+	color: #000000;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 58px;
+	margin-bottom: 30px;
+}
+.nav-image{
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+}
+.icon-setting{
+	width: 19px;
+	height: 20px;
+	opacity: 0.24;
+}
+.nav-icon-setting{
+	margin-top: 104px;
 }

@@ -27,6 +27,11 @@ body {
 	margin-bottom: 30px;
 	display: flex;
 	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
 }
 
 .menu-button {
@@ -145,11 +150,15 @@ body {
 	border-radius: 50%;
 }
 
-.container {
-	margin-left: 30px;
+.content {
 }
 .sidebar {
-	padding-left: 0px;
+	padding-left: 30px;
+	position: fixed;
+	left: 0;
+	margin-top: 114px;
+	height: calc(100%-114px);
+	overflow-y: auto;
 }
 .nav {
 }
